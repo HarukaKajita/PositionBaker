@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderBaker_ObjectPosVectorBake
+  m_Shader: {fileID: 4800000, guid: 692529c2eafcf2b41b9b8a76c238d376, type: 3}
+  m_ShaderKeywords: _BAKEVALUE_RAWPOSITION _CHECKTHRESHOLD_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _BakeValue: 2
+    - _CheckThreshold: 1
+    - _MaxLength: 10
+    - _NormMode: 0
+    - _TestValue: 0
+    - _VecMode: 0
+    m_Colors: []
